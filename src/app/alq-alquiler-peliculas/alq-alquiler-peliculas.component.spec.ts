@@ -3,9 +3,9 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { AlqAlquilerPeliculasComponent } from './alq-alquiler-peliculas.component';
+import { AlqAlquilerPeliculasComponent } from './Alq-alquiler-peliculas.component';
 
-describe('AlqAlquilerPeliculasComponent', () => {
+describe('AlquilerPeliculasComponent', () => {
   let component: AlqAlquilerPeliculasComponent;
   let fixture: ComponentFixture<AlqAlquilerPeliculasComponent>;
 
