@@ -86,8 +86,8 @@
 
            </ul><br><br><br>
 
-           <ul (click)="mostrarCompras()" class="collapsible popout" data-collapsible="accordion" >
-                <li>
+           <ul class="collapsible popout" data-collapsible="accordion" >
+                <li (click)="mostrarCompras()">
                   <div id="listar" class="collapsible-header"><i class="material-icons"  >filter_drama</i>
                     Mostrar Compra
                     <ul class="collection">
@@ -101,7 +101,8 @@
                     </ul>  
                     
                     </div>
-                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                    
+                  <div class="collapsible-body"><p>Total De Compras.</p></div>
                 </li>
 
           </ul>    
