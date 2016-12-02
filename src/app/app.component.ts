@@ -23,8 +23,8 @@ export class AppComponent {
     .subscribe((response)=>{
       this.comprasList = response.json();
       console.log(this.comprasList);
-      let modalCompras = document.getElementById("modal_Compras");
-      modalCompras.style.visibility = "visible";
+      let listar = document.getElementById("listar");
+      
     });            
   }
  
