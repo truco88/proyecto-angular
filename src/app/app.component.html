@@ -86,26 +86,26 @@
 
            </ul><br><br><br>
 
-           <ul class="collapsible popout" data-collapsible="accordion" >
+           <ul class="collapsible" data-collapsible="expandable" >
                 <li (click)="mostrarCompras()">
-                  <div id="listar" class="collapsible-header"><i class="material-icons"  >filter_drama</i>
+                  <div id="listar" class="collapsible-header"><i class="material-icons">markunread_mailbox</i>
                     Mostrar Compra
                     <ul class="collection">
                       <li *ngFor="let alquiler of comprasList">
                         <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                        <p>{{alquiler.nombre}}<br>
-                           {{alquiler.genero}}<br>
-                           {{alquiler.fecha}}
+                        <p>Nombre: {{alquiler.nombre}}<br>
+                           Genero: {{alquiler.genero}}<br>
+                           Fecha:  {{alquiler.fecha}}
                         </p>
                       </li>   
                     </ul>  
                     
-                    </div>
-                    
+                  </div>
+
                   <div class="collapsible-body"><p>Total De Compras.</p></div>
                 </li>
 
-          </ul>    
+          </ul>  
 
                
    
