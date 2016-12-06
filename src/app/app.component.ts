@@ -24,7 +24,7 @@ export class AppComponent {
       this.comprasList = response.json();
       console.log(this.comprasList);
       let listar = document.getElementById("listar");
-      
+      let nombre= document.getElementById("nombre");
     });            
   }
  
